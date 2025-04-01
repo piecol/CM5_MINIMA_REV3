@@ -963,7 +963,7 @@
 		(path "/4ce4cfa7-ba20-49b9-8014-333351d4c7f7/286f22a8-34bf-4142-a954-c70ada9c32c5")
 		(sheetname "/IO/")
 		(sheetfile "IO.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd)
 		(fp_line
 			(start -1.94 -2.01)
 			(end 1.94 -2.01)
@@ -9215,7 +9215,7 @@
 		(path "/4ce4cfa7-ba20-49b9-8014-333351d4c7f7/8a7dbabf-c461-478a-bef3-d5055ab30aaa")
 		(sheetname "/IO/")
 		(sheetfile "IO.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd)
 		(fp_line
 			(start -3.11 1.11)
 			(end -2.06 1.11)
@@ -10718,7 +10718,7 @@
 		(path "/4ce4cfa7-ba20-49b9-8014-333351d4c7f7/ccab5c93-a664-4af7-b860-ebf9c80768bd")
 		(sheetname "/IO/")
 		(sheetfile "IO.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd)
 		(fp_line
 			(start -4.04 -1.21)
 			(end 4.04 -1.21)
@@ -14321,7 +14321,7 @@
 		(path "/6f7bbb61-5128-4260-b2f7-4ae929abd2cd/3f08bcce-7e2f-4063-beab-79967c66ef1d")
 		(sheetname "/Ethernet/")
 		(sheetfile "Ethernet.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd)
 		(fp_line
 			(start 7.925 -18.31)
 			(end 7.925 -12.1)
