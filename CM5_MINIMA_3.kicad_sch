@@ -3279,16 +3279,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 139.7) (xy 214.63 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eeeebaa-3eb1-422e-8a8c-e271d549cd69")
-	)
-	(wire
-		(pts
 			(xy 58.42 80.01) (xy 71.12 80.01)
 		)
 		(stroke
@@ -3529,16 +3519,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 137.16) (xy 214.63 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "745e70e0-0969-4ac4-8d07-f74c0f7beb77")
-	)
-	(wire
-		(pts
 			(xy 123.19 39.37) (xy 104.14 39.37)
 		)
 		(stroke
@@ -3566,16 +3546,6 @@
 			(type default)
 		)
 		(uuid "79de64e7-b079-4324-8cd5-c405b5d86f08")
-	)
-	(wire
-		(pts
-			(xy 173.99 139.7) (xy 189.23 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a52b0f4-0fd2-4c27-b049-36f80da14813")
 	)
 	(wire
 		(pts
@@ -4016,16 +3986,6 @@
 			(type default)
 		)
 		(uuid "ec9d5706-85ce-456d-a1a5-c69da7bf78c0")
-	)
-	(wire
-		(pts
-			(xy 173.99 137.16) (xy 189.23 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef27e155-ba1d-46b2-bfff-c6c16513c448")
 	)
 	(bus
 		(pts
@@ -4963,130 +4923,6 @@
 			(project "CM5_MINIMA_3"
 				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
 					(reference "H104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 193.04 139.7 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "46be3d2e-e1ae-46b6-9a99-a01d3c90f2a0")
-		(property "Reference" "R105"
-			(at 184.912 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 191.77 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 193.04 141.478 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 193.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "9233750"
-			(at 193.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Rohm"
-			(at 193.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "MCR10EZPJ000"
-			(at 193.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 0R M2012 5% "
-			(at 193.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "121629591"
-			(at 193.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c632fed7-7365-4085-a8f9-cb01074b465d")
-		)
-		(pin "2"
-			(uuid "375bc65e-4587-419d-9edc-f9522ae30ead")
-		)
-		(instances
-			(project "CM5_MINIMA_2"
-				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
-					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -6852,130 +6688,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 193.04 137.16 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "c69f1880-61de-4ffe-9588-cc06397167ba")
-		(property "Reference" "R106"
-			(at 184.912 136.144 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 191.77 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 193.04 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 193.04 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "9233750"
-			(at 193.04 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Rohm"
-			(at 193.04 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "MCR10EZPJ000"
-			(at 193.04 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 0R M2012 5% "
-			(at 193.04 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "121629591"
-			(at 193.04 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d261c5ad-020f-4f99-82e3-dcc1b58b9300")
-		)
-		(pin "2"
-			(uuid "27724a64-3cd0-4bdc-88cd-8143a35bede0")
-		)
-		(instances
-			(project "CM5_MINIMA_2"
-				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
-					(reference "R106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EasyEDA:MK-11C04-G013")
 		(at 78.74 162.56 270)
 		(mirror x)
@@ -8027,26 +7739,6 @@
 				(justify left)
 			)
 		)
-		(pin "GPIO4" input
-			(at 173.99 137.16 0)
-			(uuid "bab8c5d6-2218-498c-9a0c-020c27bc973d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO5" input
-			(at 173.99 139.7 0)
-			(uuid "9d2200db-cf94-4bec-bb7e-5e6a5aeba3ff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "BL_GPIO24" input
 			(at 173.99 85.09 0)
 			(uuid "6042f950-d555-4c94-8683-dde3b1de9193")
@@ -8378,26 +8070,6 @@
 				)
 				(justify left top)
 				(hide yes)
-			)
-		)
-		(pin "TX" input
-			(at 214.63 137.16 180)
-			(uuid "ae6557cc-a996-449b-a4dc-2083acd431d4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RX" input
-			(at 214.63 139.7 180)
-			(uuid "c7f34937-3412-4a7c-a148-b8baa190ab4a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "PCIE_C{PCIE}" bidirectional

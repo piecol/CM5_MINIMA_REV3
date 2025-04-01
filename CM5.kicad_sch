@@ -11,6 +11,149 @@
 		(company "Pierluigi Colangeli")
 	)
 	(lib_symbols
+		(symbol "EasyEDA:SM02B-SRSS-TB(LF)(SN)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SM02B-SRSS-TB (LF)(SN)"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:CONN-SMD_2P-P1.00_SM02B-SRSS-TB-LF-SN"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_JST-Sales-America__JST-Sales-America-SM02B-SRSS-TB-LF-SN_C160402.html"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C160402"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SM02B-SRSS-TB(LF)(SN)_0_1"
+				(rectangle
+					(start -8.89 1.27)
+					(end 8.89 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 3.81 270)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -1.27 3.81 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 3.81 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 3.81 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "New_Library:ComputeModule5-CM5_GPIO"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3992,6 +4135,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -4583,12 +4851,20 @@
 		(uuid "73145039-3080-4932-8359-96e45a4fed01")
 	)
 	(no_connect
+		(at 71.12 119.38)
+		(uuid "77cb9a17-8df8-4095-b833-c92c5ae8f069")
+	)
+	(no_connect
 		(at 347.98 193.04)
 		(uuid "78187c7e-636e-40fa-a224-fa9fb33802fd")
 	)
 	(no_connect
 		(at 250.19 114.3)
 		(uuid "7a8add8b-1484-4c82-b02e-7a29f12c857a")
+	)
+	(no_connect
+		(at 123.19 245.11)
+		(uuid "801cdc1a-a878-446b-ad07-b4341314a1b1")
 	)
 	(no_connect
 		(at 86.36 165.1)
@@ -4605,10 +4881,6 @@
 	(no_connect
 		(at 165.1 190.5)
 		(uuid "89804b6a-48c3-4eb5-957d-4c21e2a95fa3")
-	)
-	(no_connect
-		(at 72.39 172.72)
-		(uuid "8b66c74a-8381-4107-9c0d-2cde5cd505f8")
 	)
 	(no_connect
 		(at 161.29 142.24)
@@ -4683,6 +4955,10 @@
 		(uuid "d5f5cbcc-e15a-4edf-bbb7-4433b1f8cc52")
 	)
 	(no_connect
+		(at 71.12 144.78)
+		(uuid "dc0884b3-74ac-4335-867e-f0d731064ff8")
+	)
+	(no_connect
 		(at 251.46 147.32)
 		(uuid "e086af2d-bc8b-4db3-9c3a-09317b7b9977")
 	)
@@ -4705,6 +4981,10 @@
 	(no_connect
 		(at 161.29 165.1)
 		(uuid "ee300236-ccd0-47ee-9926-0dd92fcebdee")
+	)
+	(no_connect
+		(at 123.19 232.41)
+		(uuid "f09ad1a7-7c4c-435b-a09f-07e609af442e")
 	)
 	(no_connect
 		(at 161.29 172.72)
@@ -5668,6 +5948,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 237.49) (xy 130.81 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb918f9-6257-4efa-936e-7ff2f35e1366")
+	)
+	(wire
+		(pts
 			(xy 331.47 78.74) (xy 331.47 81.28)
 		)
 		(stroke
@@ -5745,6 +6035,16 @@
 			(type solid)
 		)
 		(uuid "3225cb9a-ca9c-4e4d-9c9b-5a31462c10ca")
+	)
+	(wire
+		(pts
+			(xy 69.85 172.72) (xy 86.36 172.72)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "32288653-1f25-4ef7-a67a-5ec286721138")
 	)
 	(wire
 		(pts
@@ -6058,7 +6358,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 144.78) (xy 86.36 144.78)
+			(xy 71.12 144.78) (xy 86.36 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6425,6 +6725,16 @@
 			(type solid)
 		)
 		(uuid "6bc1cd1d-c6da-4a2b-938c-660535439a91")
+	)
+	(wire
+		(pts
+			(xy 130.81 237.49) (xy 130.81 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e3f7f42-cca8-4f6b-9591-21454fafb038")
 	)
 	(wire
 		(pts
@@ -7188,6 +7498,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 240.03) (xy 130.81 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa93fd56-f4ff-4fe0-a3ac-14d20dcd8ec5")
+	)
+	(wire
+		(pts
 			(xy 148.59 86.36) (xy 148.59 93.98)
 		)
 		(stroke
@@ -7245,16 +7565,6 @@
 			(type solid)
 		)
 		(uuid "b34d8de1-c3fc-4418-ad6b-a64253944de0")
-	)
-	(wire
-		(pts
-			(xy 72.39 172.72) (xy 86.36 172.72)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "b44e25ea-e414-423c-a335-7c316d887be5")
 	)
 	(wire
 		(pts
@@ -7638,7 +7948,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 119.38) (xy 86.36 119.38)
+			(xy 71.12 119.38) (xy 86.36 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8106,6 +8416,16 @@
 		)
 		(uuid "faec7e7b-5e78-4a75-8cef-8ef920c5e196")
 	)
+	(wire
+		(pts
+			(xy 130.81 240.03) (xy 130.81 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faffdaa9-9a50-4872-8346-901eaaef0be9")
+	)
 	(bus
 		(pts
 			(xy 242.57 106.68) (xy 242.57 104.14)
@@ -8286,6 +8606,16 @@
 		)
 		(uuid "0fac88f2-ba1d-4ce2-8fad-a43f11648c4d")
 	)
+	(label "GPIO5"
+		(at 71.12 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13a1c50c-90bb-47a3-9b48-367fe6eec269")
+	)
 	(label "USB3-1-TX_P"
 		(at 332.74 170.18 0)
 		(effects
@@ -8335,6 +8665,16 @@
 			(justify right bottom)
 		)
 		(uuid "1ca4389d-a6ad-4cb9-ba87-2300b798830d")
+	)
+	(label "GPIO4"
+		(at 71.12 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24633abe-25bb-47c8-8ac2-d00cb362c430")
 	)
 	(label "HDMI1_D1_P"
 		(at 251.46 144.78 0)
@@ -8705,16 +9045,6 @@
 			(justify left bottom)
 		)
 		(uuid "7e237aac-34c6-4c6f-a46f-a9342caa6598")
-	)
-	(label "VBAT"
-		(at 77.47 172.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "80895b3a-127f-4a36-9507-c7520a358024")
 	)
 	(label "HDMI_PI.CK_P"
 		(at 240.03 190.5 0)
@@ -9400,17 +9730,6 @@
 		)
 		(uuid "50979d4c-d6b1-48d4-9d41-78fdae3a9c78")
 	)
-	(hierarchical_label "GPIO5"
-		(shape input)
-		(at 69.85 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "55a534e0-f142-4ae6-92de-2682b614500b")
-	)
 	(hierarchical_label "ETH_nLED_ACTIVITY"
 		(shape output)
 		(at 163.83 96.52 0)
@@ -9531,17 +9850,6 @@
 			(justify left)
 		)
 		(uuid "9755dc39-9145-47fb-9820-9202374fa4b5")
-	)
-	(hierarchical_label "GPIO4"
-		(shape input)
-		(at 69.85 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a2a467ae-6dc9-429a-be1e-0471b1d9274e")
 	)
 	(hierarchical_label "GPIO_VREF"
 		(shape input)
@@ -9674,6 +9982,71 @@
 			(justify left)
 		)
 		(uuid "fc606151-1fa9-4916-b08a-ccb1e54120b0")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08d42191-5bf9-430e-837e-20a458c52ed5")
+		(property "Reference" "#PWR0311"
+			(at 130.81 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.937 245.6942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed5cbb5b-ddaa-46eb-b4e1-239c3410904b")
+		)
+		(instances
+			(project "CM5_MINIMA_3"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/45540f0b-d892-4f71-86ad-b9f245bcefda"
+					(reference "#PWR0311")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "New_Library:ComputeModule5-CM5_HSS")
@@ -10276,6 +10649,89 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA:SM02B-SRSS-TB(LF)(SN)")
+		(at 119.38 238.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b946dea-e567-419f-adc5-7e829a6ea453")
+		(property "Reference" "CN1"
+			(at 118.11 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM02B-SRSS-TB (LF)(SN)"
+			(at 118.11 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:CONN-SMD_2P-P1.00_SM02B-SRSS-TB-LF-SN"
+			(at 115.57 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_JST-Sales-America__JST-Sales-America-SM02B-SRSS-TB-LF-SN_C160402.html"
+			(at 113.03 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C160402"
+			(at 110.49 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ef0fc107-38f2-457a-95c1-70c9a64da657")
+		)
+		(pin "2"
+			(uuid "c6a12182-8658-4573-8474-25ef5d042c6f")
+		)
+		(pin "1"
+			(uuid "7cbd0af0-919c-4915-b1e9-1bf44713e62c")
+		)
+		(pin "3"
+			(uuid "c72dd501-26bd-457a-952d-05b748b2d48f")
+		)
+		(instances
+			(project ""
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/45540f0b-d892-4f71-86ad-b9f245bcefda"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "New_Library:ComputeModule5-CM5_GPIO")
 		(at 119.38 134.62 0)
 		(unit 1)
@@ -10680,6 +11136,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 69.85 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b05d5ee5-3791-4dd9-b8ae-185f4172e4f8")
+		(property "Reference" "#PWR01"
+			(at 69.85 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 69.85 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 69.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1353422-f28e-4471-b45f-8419306fb295")
+		)
+		(instances
+			(project ""
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/45540f0b-d892-4f71-86ad-b9f245bcefda"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 148.59 208.28 0)
 		(unit 1)
@@ -10739,6 +11261,72 @@
 			(project "CM5_CB"
 				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/45540f0b-d892-4f71-86ad-b9f245bcefda"
 					(reference "#PWR0308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 130.81 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc1fb808-1ec1-49db-8008-44e996832d23")
+		(property "Reference" "#PWR02"
+			(at 130.81 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 130.81 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 130.81 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "909a4459-85f1-4cbd-b6fa-ae1b9b6caca8")
+		)
+		(instances
+			(project "CM5_MINIMA_3"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f/45540f0b-d892-4f71-86ad-b9f245bcefda"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

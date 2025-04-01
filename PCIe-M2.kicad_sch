@@ -3375,6 +3375,10 @@
 		(uuid "aeea8bac-bc94-476a-bc62-a64e8b60db06")
 	)
 	(no_connect
+		(at 180.34 77.47)
+		(uuid "b170023b-8e2a-496e-b0f4-541c7a8fd63e")
+	)
+	(no_connect
 		(at 129.54 77.47)
 		(uuid "cf21d744-0176-4f6b-971e-ba8d93225eba")
 	)
@@ -3389,6 +3393,10 @@
 	(no_connect
 		(at 180.34 100.33)
 		(uuid "dc2f867a-a6de-4bdf-b13d-ee05914e0856")
+	)
+	(no_connect
+		(at 180.34 74.93)
+		(uuid "de6129ef-b426-45ce-821a-1c4385bf1b65")
 	)
 	(no_connect
 		(at 129.54 69.85)
@@ -4290,16 +4298,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 77.47) (xy 185.42 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba82ee2f-3f62-46d0-8403-8ceb8d4ba2a1")
-	)
-	(wire
-		(pts
 			(xy 58.42 176.53) (xy 58.42 170.18)
 		)
 		(stroke
@@ -4357,16 +4355,6 @@
 			(type solid)
 		)
 		(uuid "c2fde7ec-fec4-4557-9e9c-3d927705a02c")
-	)
-	(wire
-		(pts
-			(xy 180.34 74.93) (xy 185.42 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c524d02b-7132-4df3-9e73-acce7d3c9176")
 	)
 	(bus
 		(pts
@@ -4707,28 +4695,6 @@
 			(justify left bottom)
 		)
 		(uuid "e8841aec-edd0-4fba-b258-bf99b366b788")
-	)
-	(hierarchical_label "TX"
-		(shape input)
-		(at 185.42 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "206349b0-d28b-4c3e-b75c-d36d7be83a26")
-	)
-	(hierarchical_label "RX"
-		(shape input)
-		(at 185.42 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "64beacf8-926b-442d-bc91-e51ba25e1c5b")
 	)
 	(hierarchical_label "PCIE_C{PCIE}"
 		(shape bidirectional)
