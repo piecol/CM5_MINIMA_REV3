@@ -3159,6 +3159,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 184.15) (xy 133.35 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "138981a0-eba9-4984-877a-0cd893ac8a1a")
+	)
+	(wire
+		(pts
 			(xy 63.5 59.69) (xy 59.69 59.69)
 		)
 		(stroke
@@ -3209,7 +3219,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 182.88) (xy 143.51 184.15)
+			(xy 92.71 184.15) (xy 92.71 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3236,6 +3246,16 @@
 			(type solid)
 		)
 		(uuid "2a6ee80b-397e-44ad-adc5-4efcdec54697")
+	)
+	(wire
+		(pts
+			(xy 156.21 184.15) (xy 156.21 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7f4797-ec00-40dc-8a8d-e7b9079e0fd3")
 	)
 	(wire
 		(pts
@@ -3639,6 +3659,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 184.15) (xy 121.92 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944f0a6e-2310-4be9-88e4-c4b64aae9acc")
+	)
+	(wire
+		(pts
 			(xy 72.39 170.18) (xy 85.09 170.18)
 		)
 		(stroke
@@ -3806,6 +3836,16 @@
 			(type default)
 		)
 		(uuid "caa6915c-d499-47ed-87ae-9686e9c1d617")
+	)
+	(wire
+		(pts
+			(xy 144.78 184.15) (xy 144.78 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc409fe6-7e5c-496b-bd90-e2165e01836a")
 	)
 	(wire
 		(pts
@@ -4861,6 +4901,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 144.78 181.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45faa266-895d-48b7-9abe-a62ef0f46299")
+		(property "Reference" "H104"
+			(at 147.32 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 147.32 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_Pad"
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 144.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ae35b23-ea5b-46a0-b244-b65912c4aab4")
+		)
+		(instances
+			(project "CM5_MINIMA_3"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
+					(reference "H104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 193.04 139.7 270)
 		(mirror x)
@@ -5052,8 +5160,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 121.92 181.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57b6cf51-cef9-4224-b6e0-1bd7ba8f61ca")
+		(property "Reference" "H102"
+			(at 124.46 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 124.46 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_Pad"
+			(at 121.92 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 121.92 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "140ed14b-8f39-4232-9802-7faff03a8fcc")
+		)
+		(instances
+			(project "CM5_MINIMA_3"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
+					(reference "H102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 143.51 184.15 0)
+		(at 92.71 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5062,7 +5238,7 @@
 		(fields_autoplaced yes)
 		(uuid "5977c94c-06a7-4d2a-aff7-c0e6017dfe0b")
 		(property "Reference" "#PWR0120"
-			(at 143.51 190.5 0)
+			(at 92.71 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +5247,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 189.23 0)
+			(at 92.71 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +5255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 184.15 0)
+			(at 92.71 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,7 +5264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 184.15 0)
+			(at 92.71 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5273,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 184.15 0)
+			(at 92.71 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,6 +5288,74 @@
 			(project "CM5_CB"
 				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
 					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 133.35 181.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65946bbf-5917-48f8-9b6c-f4365437cf34")
+		(property "Reference" "H103"
+			(at 135.89 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 135.89 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_Pad"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "025f2d71-0395-48ad-9ee4-33ade32f9afc")
+		)
+		(instances
+			(project "CM5_MINIMA_3"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
+					(reference "H103")
 					(unit 1)
 				)
 			)
@@ -5252,6 +5496,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 156.21 181.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e92c7c3-21b8-4812-90e1-237c5dc5b7ba")
+		(property "Reference" "H105"
+			(at 158.75 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 158.75 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_Pad"
+			(at 156.21 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 156.21 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2d71f45-2c08-42df-976a-56fd86e1571b")
+		)
+		(instances
+			(project "CM5_MINIMA_3"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
+					(reference "H105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 187.96 45.72 270)
 		(unit 1)
@@ -5383,6 +5695,72 @@
 			(project "CM5_CB"
 				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
 					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83d69ca3-81f6-4d6b-8352-80beb56f8de0")
+		(property "Reference" "#PWR0121"
+			(at 121.92 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bba460c7-7e3f-4ace-9ae8-e971cc88f214")
+		)
+		(instances
+			(project "CM5_MINIMA_3"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -5645,7 +6023,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 143.51 180.34 0)
+		(at 92.71 181.61 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5654,7 +6032,7 @@
 		(fields_autoplaced yes)
 		(uuid "993a808d-ce41-4fa9-8f26-683a85088eb1")
 		(property "Reference" "H101"
-			(at 146.05 177.7999 0)
+			(at 95.25 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,7 +6041,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 146.05 180.3399 0)
+			(at 95.25 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5672,7 +6050,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
-			(at 143.51 180.34 0)
+			(at 92.71 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,7 +6059,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 180.34 0)
+			(at 92.71 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,7 +6068,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 143.51 180.34 0)
+			(at 92.71 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5828,6 +6206,138 @@
 			(project "CM5_CB"
 				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
 					(reference "C102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab894914-6d06-4f71-adf7-20d82cdffe95")
+		(property "Reference" "#PWR0122"
+			(at 133.35 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d52ce9e4-256c-466c-b63b-4ee5046f6b42")
+		)
+		(instances
+			(project "CM5_MINIMA_3"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1e3d9de-4002-4465-b33a-32d02dd3d2d8")
+		(property "Reference" "#PWR0123"
+			(at 144.78 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aec0f730-e58d-4599-9442-7b5957169223")
+		)
+		(instances
+			(project "CM5_MINIMA_3"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -6685,6 +7195,72 @@
 			(project "CM5_CB"
 				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
 					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec95c728-7e17-4491-8513-25090e0e8f7d")
+		(property "Reference" "#PWR0124"
+			(at 156.21 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9472222-7082-4737-afe0-e68bec5207fb")
+		)
+		(instances
+			(project "CM5_MINIMA_3"
+				(path "/b33e81d6-18a9-4b9d-a239-76a7c253462f"
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
