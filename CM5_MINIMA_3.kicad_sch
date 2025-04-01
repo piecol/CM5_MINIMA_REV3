@@ -4974,9 +4974,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "46be3d2e-e1ae-46b6-9a99-a01d3c90f2a0")
 		(property "Reference" "R105"
 			(at 184.912 140.97 90)
@@ -6857,9 +6857,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c69f1880-61de-4ffe-9588-cc06397167ba")
 		(property "Reference" "R106"
 			(at 184.912 136.144 90)

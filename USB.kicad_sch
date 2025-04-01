@@ -4156,7 +4156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
 			(at 134.3152 46.99 0)
 			(effects
 				(font
@@ -4183,7 +4183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Mouser"
+		(property "Field5" "TAJB107K006RNJ"
 			(at 133.35 43.18 0)
 			(effects
 				(font
@@ -4192,25 +4192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "667-EEF-CX0J101R"
-			(at 133.35 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Capacitor, SP-Cap, 100u, 6.3V, 15mR ESR"
-			(at 133.35 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Panasonic"
+		(property "Part Description" " 100uF 6.3V 1.7Ω@100kHz ±10% CASE-B-3528-21(mm) Tantalum Capacitors ROHS"
 			(at 133.35 43.18 0)
 			(effects
 				(font

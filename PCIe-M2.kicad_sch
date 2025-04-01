@@ -4628,6 +4628,16 @@
 		)
 		(uuid "771706f2-f352-4ac9-964a-fb5d68f46cf7")
 	)
+	(label "M2_LX"
+		(at 83.82 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81113d2f-b85c-4fa3-a5d9-ce91faf93361")
+	)
 	(label "FB"
 		(at 53.34 162.56 0)
 		(effects
