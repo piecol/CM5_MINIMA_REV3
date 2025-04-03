@@ -6508,7 +6508,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 147.32) (xy 86.36 147.32)
+			(xy 69.85 147.32) (xy 86.36 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7618,7 +7618,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 149.86) (xy 86.36 149.86)
+			(xy 69.85 149.86) (xy 86.36 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8826,16 +8826,6 @@
 		)
 		(uuid "4aad3a49-f395-4506-bac3-f7a592a1a836")
 	)
-	(label "GPIO3"
-		(at 71.12 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f4b7598-2127-4d7f-9260-49c04a3d9dbb")
-	)
 	(label "DPHY1_P.D3_P"
 		(at 251.46 200.66 0)
 		(effects
@@ -9356,16 +9346,6 @@
 		)
 		(uuid "c1728cd2-b269-4358-92d1-16b5817d8628")
 	)
-	(label "GPIO2"
-		(at 71.12 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6849620-77f6-4397-9b79-191ad5e3e6ef")
-	)
 	(label "HDMI1_SDA"
 		(at 332.74 137.16 0)
 		(effects
@@ -9807,6 +9787,17 @@
 		)
 		(uuid "85e3be37-55d7-495e-8f54-761c32d6ae06")
 	)
+	(hierarchical_label "SDA1_IO2"
+		(shape input)
+		(at 69.85 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "896cea00-4f3b-458e-bc05-99fc1d2477c7")
+	)
 	(hierarchical_label "PI_nLED_PWR"
 		(shape output)
 		(at 163.83 198.12 0)
@@ -9971,6 +9962,17 @@
 			(justify right)
 		)
 		(uuid "ec4f6f08-616a-45ec-aa7e-8a3c18ef4be6")
+	)
+	(hierarchical_label "SCL1_IO3"
+		(shape input)
+		(at 69.85 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f10466c8-cabc-4999-b752-c5249c17f89f")
 	)
 	(hierarchical_label "nLED_ACTIVITY"
 		(shape output)
