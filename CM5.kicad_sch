@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "CM5 MINIMA")
-		(date "2024-12-17")
-		(rev "2")
+		(date "2025-06-04")
+		(rev "3.1")
 		(company "Pierluigi Colangeli")
 	)
 	(lib_symbols

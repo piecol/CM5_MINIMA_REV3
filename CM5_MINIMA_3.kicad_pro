@@ -595,7 +595,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "jlcpcb/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../Downloads/CM5_MINIMA_2.step",
