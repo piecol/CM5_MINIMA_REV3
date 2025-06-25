@@ -8,6 +8,9 @@ It is designed for embedded applications, DIY electronics, and low-power computi
 If you're not familiar with Raspberry Pi or single-board computers (SBCs), think of the CM5 as a miniaturized computer that can handle tasks like data processing, networking, and hardware control, all while fitting in the palm of your hand. 
 https://www.raspberrypi.com/products/compute-module-5/?variant=cm5-104032
 
+![IMG_0876](https://github.com/user-attachments/assets/2876b471-6d9b-4508-b234-e183ba25760c)
+
+
 Get to know the story behind the MINIMA on Hackster.io:
 
 https://www.hackster.io/piecol/tiny-open-source-media-streamer-with-lorawan-what-a98a93
