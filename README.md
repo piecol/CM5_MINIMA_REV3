@@ -21,6 +21,12 @@ https://www.hackster.io/piecol/tiny-open-source-media-streamer-with-lorawan-what
 
 MINIMA was developed using KiCad, a powerful open-source Electronic Design Automation (EDA) tool. KiCad enables designers to create high-quality PCB layouts and schematics while maintaining full control over their hardware designs. By leveraging open-source tools like KiCad, the CM5 MINIMA REV3 embraces accessibility, collaboration, and innovation in hardware development.
 
+## NextPCB production ready
+
+This project is kindly supported by [NextPCB](https://www.nextpcb.com/), an excellent KiCAD-friendly PCB manufacturer.
+Under "nextpcb/production_files" you can find production files to directly place your order.
+Explore thier blog https://www.nextpcb.com/blog/exploring-the-cm5-minima-rev3
+
 ## Key Features
 
 - **USB-C Power Delivery (PD):** Supports power negotiation for efficient energy use.
