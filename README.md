@@ -75,7 +75,7 @@ https://www.raspberrypi.com/documentation/computers/compute-module.html#set-up-t
 
 ## CNC casing
 
-Custom casing with passive heat-sink was supported by PCBway, grab the .STEP file and order yours.
+Custom casing with passive heat-sink was supported by PCBway, grab the .STEP file in the CNC_enclosure folder and order yours.
 ![1756566851996](https://github.com/user-attachments/assets/acf3ca5a-a79a-4ad2-827b-ce45e678ed28)
 ![1758730215549](https://github.com/user-attachments/assets/57e2f88c-8dc2-426e-b537-7903d60acb1b)
 
