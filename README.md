@@ -73,6 +73,13 @@ https://www.raspberrypi.com/documentation/computers/compute-module.html#set-up-t
 - **Media Centers:** Play videos and manage digital content on an external display.
 - **DIY Projects:** Ideal for makers and educators learning about electronics and programming.
 
+## CNC casing
+
+Custom casing with passive heat-sink was supported by PCBway, grab the .STEP file and order yours.
+![1756566851996](https://github.com/user-attachments/assets/acf3ca5a-a79a-4ad2-827b-ce45e678ed28)
+![1758730215549](https://github.com/user-attachments/assets/57e2f88c-8dc2-426e-b537-7903d60acb1b)
+
+
 ## Conclusion
 
 The **CM5 MINIMA REV3** is a powerful and flexible computing module that opens up endless possibilities for embedded computing and automation. Whether you're building a smart device, experimenting with sensors, or designing a networked system, this board provides the essential features you need in a compact, energy-efficient form factor.
